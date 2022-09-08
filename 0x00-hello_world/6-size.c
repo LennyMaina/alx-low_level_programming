@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void)
+
 /**
  *
  *  * main - Entry point
@@ -26,6 +26,4 @@ int main(void)
 
 	return (0);
 
-}
-
-
+{
