@@ -19,7 +19,7 @@ if (c != '8' || (c == '8' && i != '9'))
 putchar(',');
 putchar(' ');
 }
-}							
+}
 }
 }
 putchar('\n');
