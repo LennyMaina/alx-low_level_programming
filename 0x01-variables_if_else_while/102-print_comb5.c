@@ -10,7 +10,7 @@ for (c = 48; c <= 57; c++)
 {
 for (i = 48; i <= 57; i++)
 {
-for (k = 48; k <= 57; k++)															
+for (k = 48; k <= 57; k++)
 {
 for (j = 48; j <= 57; j++)
 {
@@ -21,7 +21,7 @@ putchar(i);
 putchar(' ');
 putchar(k);
 putchar(j);
-if (c + i + k + j == 227 && c == 57)														
+if (c + i + k + j == 227 && c == 57)
 {
 break;
 }
