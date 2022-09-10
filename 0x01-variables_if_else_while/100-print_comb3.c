@@ -14,11 +14,12 @@ if (c < i)
 {
 putchar(c);
 putchar(i);
-if (c != '8' || (c == '8' && i != '9')){
+if (c != '8' || (c == '8' && i != '9'))
+{
 putchar(',');
 putchar(' );
 }
-}																	
+}									
 }
 }
 putchar('\n');
