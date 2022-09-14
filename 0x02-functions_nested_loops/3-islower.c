@@ -5,9 +5,9 @@
  */
 int _islower(int c)
 {
-if(c = 'a' ;c <= z ;++c)
-printf("1");
+if (c >= 'a' && c <= 'z')
+putchar('1');
 else
-printf("0");
-Return 0;
+putchar('0');
+return (0);
 }
