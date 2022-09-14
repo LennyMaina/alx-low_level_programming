@@ -5,8 +5,9 @@
  */
 void print_alphabet(void);
 {
-char c = a;
-while (n <= z)
+char c;
+c = a;
+while (c <= z)
 {
 putchar("%d\t", n);
 ++n;
