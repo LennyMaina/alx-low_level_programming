@@ -9,11 +9,8 @@ char c;
 c = a;
 while (c <= z)
 {
-putchar("%c\t", n);
-++n;
+putchar("c\t");
+++c;
 }
-{
 putchar("\n");
-Return(0);
-}
 }
