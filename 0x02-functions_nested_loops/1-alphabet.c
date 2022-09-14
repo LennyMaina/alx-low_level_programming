@@ -5,6 +5,14 @@
  */
 int main(void)
 {
-putchar("abcdefghijklmnopqrstuvwxyz");
+int = a;
+while (n <= z)
+{
+putchar("%d\t", n);
+++n;
+}
+{
+putchar("\n");
 Return(0);
+}
 }
