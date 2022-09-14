@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - print alphabet in small letters
  * Return: always 0
@@ -11,5 +12,5 @@ for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
-putchar("\n");
+putchar('\n');
 }
