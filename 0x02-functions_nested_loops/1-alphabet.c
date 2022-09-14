@@ -3,7 +3,7 @@
  * main - print alphabet in small letters
  * Return: always 0
  */
-int main(void)
+void print_alphabet(void);
 {
 char c = a;
 while (n <= z)
