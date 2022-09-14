@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <main.h>
 /**
  *print_alphabet_x10 - print a to z 10 times
  *Return: always 0
