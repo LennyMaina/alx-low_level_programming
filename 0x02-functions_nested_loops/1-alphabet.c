@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include <main.c>
 /**
  * main - print alphabet in small letters
  * Return: always 0
