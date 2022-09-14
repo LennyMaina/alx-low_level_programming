@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /**
  *print_alphabet_x10 - print a to z 10 times
  *Return: always 0
@@ -13,5 +13,6 @@ for (c = 'a' ; c <= 'z' ; ++c)
 {
 putchar(c);
 }
+putchar('\n')
 }
 }
