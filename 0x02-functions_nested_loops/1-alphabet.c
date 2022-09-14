@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print alphabet in small letters
+ * print_alphabet - print alphabet in small letters
  * Return: always 0
  */
 void print_alphabet(void)
