@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *print_alphabet_x10 - print a to z 10 times
+ *main - print a to z 10 times
  *Return: always 0
  */
-void print_alphabet_x10(void)
+main(void)
 {
 char c, i;
 
