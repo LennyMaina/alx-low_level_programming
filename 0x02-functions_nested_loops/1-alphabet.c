@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int = a;
+char c = a;
 while (n <= z)
 {
 putchar("%d\t", n);
