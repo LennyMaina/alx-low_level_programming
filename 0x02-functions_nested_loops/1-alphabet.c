@@ -9,7 +9,7 @@ char c;
 c = a;
 while (c <= z)
 {
-putchar("%d\t", n);
+putchar("%c\t", n);
 ++n;
 }
 {
