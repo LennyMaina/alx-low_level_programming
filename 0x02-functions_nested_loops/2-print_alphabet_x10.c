@@ -12,8 +12,8 @@ while (i < 10)
 for (c = 'a' ; c <= 'z' ; ++c)
 {
 putchar(c);
+}
 i++;
 putchar('\n');
-}
 }
 }
