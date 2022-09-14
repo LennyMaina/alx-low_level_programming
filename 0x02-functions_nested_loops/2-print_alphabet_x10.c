@@ -11,7 +11,7 @@ for (i = '0'; i <= 9 ; ++i)
 {
 for (c = 'a' ; c <= 'z' ; ++c)
 {
-print_alphabet_x10(c);
+putchar(c);
 }
 }
 }
