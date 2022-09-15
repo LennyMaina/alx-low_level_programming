@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  *main - library
  *_isdigit - check if c is 0 or letter
