@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  *mul - function for multiplying two integers
  *@a: input
@@ -9,9 +8,9 @@
 int mul(int a, int b)
 {
 char c;
-printf("Enter the values of a and b");
+_putchar("Enter the values of a and b");
 scanf("%d%d", &a, &b);
 c = a * b;
-printf("%c", c);
+_putchar("%c", c);
 return (0);
 }
