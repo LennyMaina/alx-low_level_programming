@@ -4,11 +4,10 @@
  *@n: input
  *Return: 0
  */
-
 void print_numbers(void)
 {
-int n = 0;
-while (n <= 9)
+int n ;
+for (n = 0 <= 9 ++n)
 {
 _putchar(n);
 ++n;
