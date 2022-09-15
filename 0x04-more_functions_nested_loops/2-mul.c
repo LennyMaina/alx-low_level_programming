@@ -8,10 +8,10 @@
  */
 int mul(int a, int b)
 {
-int c;
+char c;
 printf("Enter the values of a and b");
 scanf("%d%d", &a, &b);
 c = a * b;
-printf("%d", c);
+printf("%c", c);
 return (0);
 }
