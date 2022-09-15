@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- print_diagonal -  a function that draws a diagonal line on the terminal
+ *print_diagonal -  a function that draws a diagonal line on the terminal
  *@n: input number of times '\' should be printed
  *Return: a diagonal
  */
@@ -18,7 +18,7 @@ for (co = 1; co <= n; co++)
 {
 for (sp = 1; sp < co; sp++)
 {
-putchar(' ');
+_putchar(' ');
 }
 _putchar('\\');
 _putchar('\n');
