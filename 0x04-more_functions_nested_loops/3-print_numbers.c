@@ -2,7 +2,7 @@
 /**
  *print_numbers - check
  *@k: character
- *Return: (print_number)
+ *Return: 0123456789\n
  */
 void print_numbers(void)
 {
