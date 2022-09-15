@@ -12,7 +12,7 @@ if (size <= 0)
 {
 _putchar('\n');
 }
-else 
+else
 {
 for (ro = 0; ro <= (size - 1); ro++)
 {
