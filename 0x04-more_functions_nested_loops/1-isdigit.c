@@ -3,7 +3,7 @@
 /**
  * main - library
  *_isdigit - function to check if c is a number from 0-9
- * @c: input
+ * @c: charcter
  * Return: 1 if true, 0 if false
  */
 int _isdigit(int c)
