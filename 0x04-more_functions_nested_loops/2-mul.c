@@ -11,8 +11,8 @@ int mul(int a, int b)
 {
 int c;
 printf("Enter the values of a and b");
-scanf("%d%d", &a, &b);
+scanf("%d%d\n", &a, &b);
 c = a * b;
-printf("%d", c);
+printf("%d\n", c);
 return (0);
 }
