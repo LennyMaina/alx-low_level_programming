@@ -1,6 +1,8 @@
+#include <stdio.h>
 #include "main.h"
 /**
- *mul - function for multiplying two integers
+ *mul- function for multiplying two integers
+ *main - multiplication
  *@a: input
  *@b: input
  *Return: multiplication results of the two integers
@@ -11,6 +13,6 @@ int c;
 printf("Enter the values of a and b");
 scanf("%d%d", &a, &b);
 c = a * b;
-printf("%c", c);
+printf("%d", c);
 return (0);
 }
