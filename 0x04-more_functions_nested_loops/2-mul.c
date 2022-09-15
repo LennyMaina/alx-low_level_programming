@@ -1,18 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *mul- function for multiplying two integers
- *main - library function
- *@a: input
- *@b: input
- *Return: multiplication results of the two integers
+ * mul - checks for checks for a digit (0 through 9).
+ * @a: a - Variable
+ * @b: b - variable
+ * Return: Always 0.
  */
 int mul(int a, int b)
 {
-int c;
-printf("Enter the values of a and b");
-scanf("%d%d", &a, &b);
-c = a * b;
-printf("%d\n", c);
-return (0);
+int mul;
+mul = a * b;
+return (mul);
 }
