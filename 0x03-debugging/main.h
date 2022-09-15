@@ -1,1 +1,3 @@
-postitive_or_negative()
+#ifndef
+#define
+void postitive or negative() (int i) ;
