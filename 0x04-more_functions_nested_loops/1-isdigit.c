@@ -2,9 +2,9 @@
 
 /**
  *main - library
- *_isdigit - check if c is a number from 0-9
+ *_isdigit -function to check if c is a number from 0-9
  *@c: input
- * Return:1 if true 0 if false
+ * Return: 1 if true 0 if false
  */
 
 int _isdigit(int c)
