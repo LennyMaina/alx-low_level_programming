@@ -7,10 +7,10 @@
  */
 int mul(int a, int b)
 {
-char c;
-_putchar("Enter the values of a and b");
+int c;
+printf("Enter the values of a and b");
 scanf("%d%d", &a, &b);
 c = a * b;
-_putchar("%c", c);
+printf("%c", c);
 return (0);
 }
