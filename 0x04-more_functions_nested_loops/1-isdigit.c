@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - library
  * _isdigit - function to check if c is a number from 0-9
@@ -9,7 +8,7 @@
 int _isdigit(int c)
 {
 if ((c >= 0) && (c <= 9))
-return ('1');
+return (1);
 else
-return ('0');
+return (0);
 }
