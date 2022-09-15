@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *mul- function for multiplying two integers
- *main - multiplication
+ *main - library function
  *@a: input
  *@b: input
  *Return: multiplication results of the two integers
