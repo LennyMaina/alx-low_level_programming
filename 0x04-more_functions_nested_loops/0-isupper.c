@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  *_isupper - check c
- * Return: always (0)
+ *main - check
+ *@c: input
+ * Return: (1) if true,(0) if false
  */
 
 int _isupper(int c)
