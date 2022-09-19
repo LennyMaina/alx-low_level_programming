@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- *print_rev - function print in reverse
- *@s: string
- *Return: reverse
+ *print_rev - prints to string in reverse
+ *@str: Strin to print
+ *Return: Nothing
  */
-void print_rev(char *s)
+void print_rev(char *str)
 {
-int str = char *s
-len = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-strrev(str);
-puts(str);
+int i = 0, strln = 0;
+
+strln = _strlen(str);
+
+for (i = (strln - 1); i >= 0; i--)
+	{
+		_putchar(*(str + i));
+	}
+	_putchar('\n');
 }
