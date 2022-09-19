@@ -5,11 +5,12 @@
  *swap_int - swapping
  *@a: input values
  *@b: input values
- *Return: always 0
+ *Return: integers
  */
 void swap_int(int *a, int *b)
 {
 printf("Enter the values of *a and *b");
+if (*b > *a)
 {
 *b = *a + *b;
 *a = *b - *a;
