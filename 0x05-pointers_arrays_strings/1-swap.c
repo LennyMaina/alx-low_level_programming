@@ -14,8 +14,6 @@ int n;
 n = *a;
 *a = *b;
 *b = n;
-
-printf("%d\t%d", *a, *b);
 }
 
 
