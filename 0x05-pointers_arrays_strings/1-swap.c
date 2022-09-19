@@ -9,11 +9,11 @@
  */
 void swap_int(int *a, int *b)
 {
-int k;
+int n;
 
-k = *a;
+n = *a;
 *a = *b;
-*b + k;
+*b + n;
 
 printf("%d\t%d", *a, *b);
 }
