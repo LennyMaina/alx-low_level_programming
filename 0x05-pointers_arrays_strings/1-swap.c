@@ -14,6 +14,8 @@ int n;
 n = *a;
 *a = *b;
 *b = n;
+printf("%d\n", *a);
+printf("%d", *b);
 }
 
 
