@@ -9,11 +9,12 @@
  */
 void swap_int(int *a, int *b)
 {
-*a = 98;
-*b = 42;
-*b = *a + *b;
-*a = *b - *a;
-*b = *b - *a;
+int k;
+
+k = *a;
+*a = *b;
+*b + k;
+
 printf("%d\t%d", *a, *b);
 }
 
