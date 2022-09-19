@@ -14,7 +14,6 @@ int n;
 n = *a;
 *a = *b;
 *b = n;
-printf("*a=%d, *b=%d\n", *a, *b);
 }
 
 
