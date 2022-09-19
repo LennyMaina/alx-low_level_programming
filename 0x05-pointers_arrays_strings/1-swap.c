@@ -9,7 +9,8 @@
  */
 void swap_int(int *a, int *b)
 {
-printf("Enter the values of *a and *b");
+*a = 98;
+*b = 42;
 *b = *a + *b;
 *a = *b - *a;
 *b = *b - *a;
