@@ -13,7 +13,7 @@ int n;
 
 n = *a;
 *a = *b;
-*b + n;
+*b = n;
 
 printf("%d\t%d", *a, *b);
 }
