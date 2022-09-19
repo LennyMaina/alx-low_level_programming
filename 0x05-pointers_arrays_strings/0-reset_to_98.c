@@ -4,7 +4,7 @@
 /**
  *reset_to_98 - assigning variable to pointer
  *n: variable
- * Return: pointer
+ * Return: n
  */
 void reset_to_98(int *n)
 {
