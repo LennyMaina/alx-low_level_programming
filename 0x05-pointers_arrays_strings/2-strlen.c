@@ -3,17 +3,17 @@
 
 /**
  *_strlen - function length of a string
- *@n: variable
+ *@m: variable
  *@s: char
  *Return: length
  */
 int _strlen(char *s)
 {
-char s[100];
-int n;
-_putchar("My first strlen!");
-gets(string);
-n = strlen(string);
-puts("Length = %d", n);
-return (n);
+int m = 1;
+
+while (*(s + m) != '\0')
+{
+++m;
+}
+return (m);
 }
