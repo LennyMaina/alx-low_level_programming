@@ -27,7 +27,7 @@ void print_rev(char *str)
 {
 
 	int i = 0, strln = 0;
-	
+
 	strln = _strlen(str);
 	for (i = (strln - 1); i >= 0; i--)
 	{
