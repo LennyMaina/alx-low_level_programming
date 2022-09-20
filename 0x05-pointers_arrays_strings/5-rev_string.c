@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strlen - returns the length of a string.
  * @s: pointer to String
@@ -7,8 +6,7 @@
  */
 int _strlen(char *s)
 {
-
-	int i = 0
+	int i = 0;
 
 	while (*(s + i) != '\0')
 	{
@@ -16,7 +14,6 @@ int _strlen(char *s)
 	}
 	return (i);
 }
-
 
 /**
  * rev_string - reverse the string
