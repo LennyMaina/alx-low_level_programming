@@ -1,18 +1,11 @@
 #include "main.h"
 
 /**
-
  * _strcpy - function that copies the string pointed to
-
  * @dest: pointer to string entry data
-
  * @src: destiny data
-
  * Return: return value of dest
-
  */
-
-
 
 char *_strcpy(char *dest, char *src)
 
